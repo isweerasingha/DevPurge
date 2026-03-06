@@ -1,6 +1,8 @@
 # 🧹 DevPurge
 
-A high-performance Python CLI tool for macOS to reclaim disk space by removing heavy `node_modules`, `.next`, and `build` folders.
+A high-performance Python CLI tool for macOS to reclaim disk space by removing heavy folders like `node_modules`, `.next`, `build`, `dist`, `out`, `.turbo`, `__pycache__`, and `target`.
+
+
 
 ## 🚀 Features
 - **Dry Run by Default:** Never delete anything by accident.
