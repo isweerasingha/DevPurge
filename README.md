@@ -35,13 +35,13 @@ DevPurge targets folders that are **reproducible** (can be recreated by running 
 
 ```bash
 # Safe scan of the current directory
-cleaner
+devpurge
 
 # Delete artifacts in the current project, ignoring the 'Archives' folder
-cleaner --run --ignore ./Archives
+devpurge --run --ignore ./Archives
 
 # Select specific folders to delete by typing their index numbers (e.g., 1, 3, 5)
-cleaner --run
+devpurge --run
 
 ```
 
