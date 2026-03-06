@@ -16,7 +16,9 @@ TARGET_FOLDERS = {
     "target",
     ".cache",
     ".serverless",
-    ".docusaurus"
+    ".docusaurus",
+    "venv",
+    ".venv",
 }
 
 # ANSI Colors -  macOS Terminal

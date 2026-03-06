@@ -14,6 +14,7 @@ All suppprt folders:
 - `.cache`
 - `.serverless`
 - `.docusaurus`
+- `venv` / `.venv`
 
 ## 🚀 Features
 - **Dry Run by Default:** Never delete anything by accident.
