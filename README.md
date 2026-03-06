@@ -1,10 +1,10 @@
-# 🚀 DevPurge CLI
+# 🚀 FastDevPurge CLI
 
-**DevPurge** is a lightning-fast, recursive cleanup utility for macOS developers. It identifies and removes heavy build artifacts and dependency bloat that accumulate over time, reclaiming gigabytes of disk space in seconds.
+**FastDevPurge** is a lightning-fast, recursive cleanup utility for macOS developers. It identifies and removes heavy build artifacts and dependency bloat that accumulate over time, reclaiming gigabytes of disk space in seconds.
 
 ## 🛠 Supported Artifacts
 
-DevPurge targets folders that are **reproducible** (can be recreated by running a build or install command).
+FastDevPurge targets folders that are **reproducible** (can be recreated by running a build or install command).
 
 | Folder | Description | Project Type |
 | --- | --- | --- |
@@ -49,13 +49,13 @@ devpurge --run
 
 ## 📦 Installation
 
-To use DevPurge globally from any terminal window, follow these steps:
+To use FastDevPurge globally from any terminal window, follow these steps:
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/isweerasingha/DevPurge.git
-cd DevPurge
+git clone https://github.com/isweerasingha/FastDevPurge.git
+cd FastDevPurge
 
 ```
 

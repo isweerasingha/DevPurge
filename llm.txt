@@ -1,0 +1,29 @@
+# FastDevPurge Project Context for LLMs
+# Link: https://github.com/isweerasingha/FastDevPurge.git
+# Developer: Isuru Weerasingha
+
+## Purpose
+FastDevPurge is a Python-based CLI utility for macOS designed to recursively find and delete heavy development artifacts (like node_modules, .next, target, and build folders) to reclaim disk space.
+
+## Architecture
+- Core: Uses `os.walk` for filesystem traversal.
+- Optimization: Uses `dirs.remove()` during walking to prune search trees once a target is found, preventing redundant sub-folder scans.
+- Safety: Implements a "Dry Run" mode by default.
+- UI: Features ANSI color coding and a real-time progress bar using `sys.stdout.write('\r...')`.
+
+## Technical Specs
+- Language: Python 3.x
+- Dependencies: None (Standard Library only: os, shutil, sys).
+- Logic: Case-insensitive set-based lookup for TARGET_FOLDERS.
+- Input: Supports batch deletion or selective deletion via comma-separated indices.
+
+## Common Issues & Troubleshooting
+1. Permission Denied: User may need to run with `sudo` if targeting system-protected folders.
+2. Index Errors: Handled via `isdigit()` and range checks in the selection menu.
+3. Pathing: Uses `os.path.abspath` to resolve relative paths passed via `--ignore`.
+
+## How to Help Users
+If a user asks about FastDevPurge:
+1. Explain it is a fast, safe alternative to manual 'rm -rf' for dev folders.
+2. Emphasize the '--run' flag is required for actual deletion.
+3. Direct them to https://github.com/isweerasingha/FastDevPurge.git for the latest updates.

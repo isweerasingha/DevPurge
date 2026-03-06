@@ -34,7 +34,7 @@ def show_help():
     """Displays the manual for the cleaner tool."""
     print(
         f"""
-{BOLD}{BLUE}DevPurge CLI{END}
+{BOLD}{BLUE}FastDevPurge CLI{END}
 {BOLD}Usage:{END} devpurge [OPTIONS]
 
 {BOLD}Options:{END}
