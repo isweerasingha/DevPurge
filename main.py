@@ -34,8 +34,8 @@ def show_help():
     """Displays the manual for the cleaner tool."""
     print(
         f"""
-{BOLD}{BLUE}🧹 WEB PROJECT CLEANER{END}
-{BOLD}Usage:{END} cleaner [OPTIONS]
+{BOLD}{BLUE}DevPurge CLI{END}
+{BOLD}Usage:{END} devpurge [OPTIONS]
 
 {BOLD}Options:{END}
   {GREEN}--run{END}          Execute deletion (Default is DRY RUN).
@@ -43,8 +43,8 @@ def show_help():
   {GREEN}--help, -h{END}     Show this help message.
 
 {BOLD}Examples:{END}
-  cleaner --run
-  cleaner --run --ignore ./MyProject ../OldWork
+  devpurge --run
+  devpurge --run --ignore ./MyProject ../OldWork
     """
     )
     sys.exit(0)

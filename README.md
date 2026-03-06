@@ -61,10 +61,10 @@ cd DevPurge
 
 ### 2. Move to Global Bin
 
-Move the script to your local bin and rename it to `cleaner`:
+Move the script to your local bin and rename it to `devpurge`:
 
 ```bash
-sudo cp main.py /usr/local/bin/cleaner
+sudo cp main.py /usr/local/bin/devpurge
 
 ```
 
@@ -73,6 +73,6 @@ sudo cp main.py /usr/local/bin/cleaner
 Give your Mac permission to run the script:
 
 ```bash
-sudo chmod +x /usr/local/bin/cleaner
+sudo chmod +x /usr/local/bin/devpurge
 
 ```
