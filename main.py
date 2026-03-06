@@ -14,6 +14,9 @@ TARGET_FOLDERS = {
     ".turbo",
     "__pycache__",
     "target",
+    ".cache",
+    ".serverless",
+    ".docusaurus"
 }
 
 # ANSI Colors -  macOS Terminal
